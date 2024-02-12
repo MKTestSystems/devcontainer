@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "<NAME> Debug",
+            "cwd": "${workspaceRoot}",
+            "servertype": "jlink",
+            "executable": "${workspaceRoot}/build/debug/<NAME>.elf",
+            "request": "launch",
+            "type": "cortex-debug",        
+            "ipAddress": "192.168.56.1",
+            "device": "<DEVICE>",
+            "showDevDebugOutput": "raw",
+            "svdFile": "<SVD>",                     
+        },
+    ]
+}

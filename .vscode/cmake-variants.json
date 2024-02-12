@@ -1,0 +1,19 @@
+{
+  "buildType": {
+    "default": "debug",      
+    "choices": {
+      "test": {
+        "short": "Test",
+        "buildType": "Test"
+      },
+      "debug": {
+        "short": "Debug",
+        "buildType": "Debug"
+      },
+      "release" : {
+        "short": "Release",
+        "buildType": "Release"
+      }
+    }
+  }
+}
